@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/check"
+                android:visibility="gone"
+                app:tint="@color/yellow" />
+
+            <ProgressBar
+                android:id="@+id/loader"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:indeterminateTint="@color/yellow"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hola"
+                android:layout_weight="1"
+                android:textAlignment="textStart"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:textColor="@color/yellow"
+                android:id="@+id/message"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

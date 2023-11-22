@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "963183082713",
+    "project_id": "shopee-e8606",
+    "storage_bucket": "shopee-e8606.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963183082713:android:5421a12d64a993d81312c8",
+        "android_client_info": {
+          "package_name": "com.example.navigationbar"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChiDxjgn1FUCxcnpy2Z5PXi7xc3E_4bE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
